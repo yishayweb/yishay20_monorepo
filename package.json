@@ -17,8 +17,7 @@
     "publish": "yarn build && lerna publish",
     "prepare": "husky install",
     "pre-commit": "lint-staged",
-    "commit": "yarn git-cz",
-    "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    "commit": "yarn git-cz"
   },
   "lint-staged": {
     "*.{js,ts,tsx,jsx}": []
@@ -26,6 +25,11 @@
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   }
 }
