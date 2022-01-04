@@ -5,6 +5,8 @@
     "packages/*"
   ],
   "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
     "husky": "^7.0.0",
     "lerna": "^4.0.0",
     "lint-staged": "^12.1.5"
@@ -12,12 +14,18 @@
   "scripts": {
     "publish": "yarn build && lerna publish",
     "prepare": "husky install",
-    "pre-commit": "lint-staged"
+    "pre-commit": "lint-staged",
+    "commit": "yarn git-cz"
   },
   "lint-staged": {
     "*.{js,ts,tsx,jsx}": [
       "eslint --fix --max-warnings=0",
       "prettier --write"
     ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }
