@@ -6,7 +6,7 @@ import "./App.css";
 const App = () => {
   console.log(SayHi());
   console.log(SayHello());
-  return <div className="main-div">Hello There in the</div>;
+  return <div className="main-div">Hello There in the it</div>;
 };
 
 export default App;
