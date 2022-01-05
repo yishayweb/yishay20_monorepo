@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/yishayweb/yishay20_monorepo/compare/@yishay20/p1@1.3.0...@yishay20/p1@1.4.0) (2022-01-05)
+
+
+### Features
+
+* **p1:** another text ([df645ca](https://github.com/yishayweb/yishay20_monorepo/commit/df645ca1b5ff2a247ce6c7fa1120e7305b5081bf))
+
+
+
+
+
 # [1.3.0](https://github.com/yishayweb/yishay20_monorepo/compare/@yishay20/p1@1.1.0...@yishay20/p1@1.3.0) (2022-01-05)
 
 
