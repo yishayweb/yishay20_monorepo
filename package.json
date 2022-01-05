@@ -18,7 +18,7 @@
     "prepare": "husky install",
     "pre-commit": "lint-staged",
     "commit": "yarn git-cz",
-    "commit-msg": "yarn commitlint --edit $1"
+    "commit-msg": "yarn workspaces run build"
   },
   "lint-staged": {
     "*.{js,ts,tsx,jsx}": []
